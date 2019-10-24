@@ -1,0 +1,26 @@
+{
+  "name": "mongo-mongoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aj518480/mongo-mongoose.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aj518480/mongo-mongoose/issues"
+  },
+  "homepage": "https://github.com/Aj518480/mongo-mongoose#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "mongoose": "^5.3.16",
+    "morgan": "^1.9.1"
+  }
+}

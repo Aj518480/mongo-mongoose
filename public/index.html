@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> My Mongo Scraper</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.0.0/materia/bootstrap.min.css"/>
+ 
+  <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../public/assets/css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="/">My Mongo Scraper</a>
+  <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav mr-auto">
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/saved">Saved Articles</a>
+      </li>
+      <li class="nav-item">
+        <a class="btn btn-danger scrape-new">SCRAPE NEW ARTICLES!</a>
+      </li>
+      <li class="nav-item">
+        <a class="btn btn-danger clear">CLEAR ARTICLES!</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <div class="overlay">
+  </div>
+  <div class="background-image">
+  </div>
+  <div class="caption">
+    <h1> Let's find some news!</h1>
+    
+  </div>
+</div>
+<div class="container-fluid article-container">
+  <div data-_id="5db1052906c82c00152ca438" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/2019/10/23/books/jack-reacher-lee-child-wyoming.html">Jack Reacher Is Still Restless. But His Creator Has Settled Down.</a>
+        <a class="btn btn-danger save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">With a TV project in the works and his 24th Reacher novel in stores this month, Lee Child has put down roots out West.</div>
+  </div>
+    <div data-_id="5db1052906c82c00152ca436" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/2019/10/23/us/politics/ukraine-aid-freeze-impeachment.html">Ukraine Knew of Aid Freeze by Early August, Undermining Trump ClaimsWhite House aides feared that Mr. Trump had another Ukraine back channel.One of Rudy Giuliani’s two indicted associates tied the case to Mr. Trump himself.</a>
+        <a class="btn btn-danger save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">Top officials were told in early August about the delay of $391 million in security assistance, undercutting a chief argument President Trump has used to deny any quid pro quo.</div>
+  </div>
+    <div data-_id="5db1052906c82c00152ca434" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/2019/10/23/us/politics/trump-deep-state-impeachment.html">The President’s War on the ‘Deep State’ Turns Against HimThere was drama in the basement of the Capitol today. Catch up on what happened.</a>
+        <a class="btn btn-danger save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">The impeachment inquiry is in some ways the culmination of a battle between President Trump and the institutions he distrusted and disparaged.</div>
+  </div>
+   </div>
+
+<footer class="footer">
+  <div class="container">
+    <p>New York Times Mongo Scraper</p>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+<script src="/assets/javascript/index.js"></script>
+
+</body>
+
+</html>
