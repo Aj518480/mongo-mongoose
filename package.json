@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Aj518480/mongo-mongoose#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.2",
     "mongoose": "^5.3.16",
